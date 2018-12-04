@@ -1,11 +1,6 @@
 header{
-  grid-template-columns: 10% 60%
-  text-decoration: none;
-  padding: 20px;
-  width: auto;
-  margin-left: auto;
-  height: 100px;
-  background-color: rgb(167, 26, 26);
+
+
 }
 
 li a{
@@ -45,24 +40,61 @@ body{
 main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 9px;
+  grid-gap: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
 }
+
+
+
 
 #Tilbud{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
 
 }
 
 .middelsak{
   grid-column: span 8;
-  grid-row: span 3;
+  grid-row: span 4;
   padding: 5px 10px;
   font-size:
 }
 
+.navBar{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: rgb(145, 13, 43);
+  line-height: 5vw;
+  transition: 0.5s;
+}
 
+.navBarLink:hover{
+  background-color: black;
+  transition: 0.8s;
+}
+
+.navBarText{
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.navBarLink{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: 0.5s;
+  padding: 10px;
+}
 
 .nyhet{
   grid-column: span 2;
@@ -70,12 +102,20 @@ main{
   grid-gap: 9px;
   padding: 5px 10px;
   background-color: white;
-
 }
 
 .storsak{
-  grid-column: span 3;
-  grid-row: span 3;
+  grid-column: span 8;
+  grid-row: span 1;
   padding: 5px 10px;
 
+}
+
+#Search{
+  height: 15px;
+  margin-top: 45px;
+}
+
+#hjem{
+  grid-column: 2;
 }
