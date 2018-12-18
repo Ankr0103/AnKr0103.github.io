@@ -31,7 +31,6 @@ body{
 
 input{
   width: 250px;
-  display: inline;
   float: right;
 }
 
@@ -41,13 +40,12 @@ input{
   font-style: italic;
 }
 
-li{
-  display: inline;
+#div{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul{
-  display: inline;
-}
 
 body{
   background-color: #e9e9e9
@@ -69,6 +67,14 @@ main{
   width: 80%;
 }
 
+.navBarLinkHelp{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  transition: 0.5s;
+}
+
 .middelsak{
   grid-column: span 8;
   grid-row: span 4;
@@ -78,7 +84,6 @@ main{
 
 .navBar{
   display: grid;
-  grid-template-rows: 1fr;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: rgb(145, 13, 43);
   line-height: 5vw;
@@ -100,6 +105,14 @@ main{
   padding: 10px;
 }
 
+.navBarLink2{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  padding: 10px;
+}
+
 .navBarLink{
   text-align: center;
   text-decoration: none;
@@ -107,23 +120,6 @@ main{
   font-size: 1.5vw;
   transition: 0.5s;
   padding: 50px;
-  font-style: oblique;
-}
-
-.navBarLinkHelp{
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 1.5vw;
-  transition: 0.5s;
-}
-
-.navBarLink2{
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 1.5vw;
-  padding: 10px;
 }
 
 .nyhet{
@@ -140,16 +136,15 @@ main{
   padding: 5px 10px;
 }
 
-#se{
-  grid-column: 2/8;
-  text-align: center;
-  font-size: 30px;
-  font-style: oblique;
-}
-
 #Search{
   height: 20px;
   margin-top: 85px;
+}
+
+#tusentakk{
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hjem{
